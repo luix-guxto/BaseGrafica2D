@@ -1,7 +1,7 @@
-package br.display;
+package luix.guxto.br.display;
 
 // importes
-import br.sprites.ImageLoader;
+import luix.guxto.br.sprites.ImageLoader;
 import java.awt.*;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;

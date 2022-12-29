@@ -1,8 +1,8 @@
-package br;
+package luix.guxto.br;
 
 // importes
-import br.display.Display;
-import br.states.StateManager;
+import luix.guxto.br.display.Display;
+import luix.guxto.br.states.StateManager;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 

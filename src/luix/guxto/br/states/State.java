@@ -1,4 +1,4 @@
-package br.states;
+package luix.guxto.br.states;
 import java.awt.*;
 public interface State {
 

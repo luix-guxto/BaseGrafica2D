@@ -1,4 +1,4 @@
-package br;
+package luix.guxto.br;
 
 public class VariaveisTela {
     public static final int WIDTH = 700;

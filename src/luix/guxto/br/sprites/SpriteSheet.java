@@ -1,4 +1,4 @@
-package br.sprites;
+package luix.guxto.br.sprites;
 
 import java.awt.image.BufferedImage;
 
