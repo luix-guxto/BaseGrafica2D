@@ -1,0 +1,1 @@
+this folder is used to imgs, mp3, videos, etc. that are used in the project.
