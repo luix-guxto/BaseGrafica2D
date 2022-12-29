@@ -63,7 +63,7 @@ public class StateManager implements KeyListener {
 
 - Para alterar de tela, basta chamar o metodo setStade do StateManager, como no exemplo abaixo:
 
-```Java
+```
 StateManager.setState(StateManager.NOME_DA_TELA_ADICIONADA); // Metodo static
 ```
 
