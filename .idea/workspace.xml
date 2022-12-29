@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8afe78e-46b4-46e8-93a2-93c7f38e90aa" name="Changes" comment="Atualizações">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8afe78e-46b4-46e8-93a2-93c7f38e90aa" name="Changes" comment="modificação" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Java Fragment (README.md:1,716).java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -104,13 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672280203147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modificação">
+      <created>1672285565487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672285565487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fist Commit" />
     <MESSAGE value="Atualizações" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizações" />
+    <MESSAGE value="modificação" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificação" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
