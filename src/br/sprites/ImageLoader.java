@@ -6,7 +6,6 @@ import java.util.Objects;
 
 import javax.imageio.ImageIO;
 
-@SuppressWarnings("unused")
 public class ImageLoader {
 
     // Carrega um arquivo de foto

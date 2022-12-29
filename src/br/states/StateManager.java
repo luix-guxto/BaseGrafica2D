@@ -4,7 +4,6 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-@SuppressWarnings("unused")
 public class StateManager implements KeyListener {
     // total de telas existentes
     private static final int numberStates = 13;
@@ -22,6 +21,7 @@ public class StateManager implements KeyListener {
         /*Listar as Telas aqui, da seguinte forma:
         * states[(variavelListadaDaTela)] = new (ObjetoDaTela)();
         * */
+
     }
 
     // define a tela atual
@@ -39,7 +39,7 @@ public class StateManager implements KeyListener {
     public void update() { states[currentState].update();  }
 
     // renderiza a tela atual a cada frame
-    public void render(Graphics g) throws Exception { states[currentState].render(g); }
+    public void render(Graphics g){ states[currentState].render(g); }
 
 
     @Override

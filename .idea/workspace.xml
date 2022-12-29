@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8afe78e-46b4-46e8-93a2-93c7f38e90aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jojol.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos/.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baseGraficaCanvas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/Inicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/VariaveisTela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/display/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/sprites/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/sprites/SpriteSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/states/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/states/StateManager.java" afterDir="false" />
+    <list default="true" id="d8afe78e-46b4-46e8-93a2-93c7f38e90aa" name="Changes" comment="Fist Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/VariaveisTela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/VariaveisTela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/display/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/states/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/states/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/states/StateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/states/StateManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Java Fragment (README.md:1,716).java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +88,26 @@
       <option name="presentableId" value="Default" />
       <updated>1672274951607</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fist Commit">
+      <created>1672279500258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672279500258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fist Commit">
+      <created>1672279542664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672279542664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fist Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fist Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

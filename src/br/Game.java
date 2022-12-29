@@ -6,7 +6,6 @@ import br.states.StateManager;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 
-@SuppressWarnings("unused")
 public class Game implements Runnable{
 
     private final Display ds; // janela
@@ -24,6 +23,8 @@ public class Game implements Runnable{
 
         // adiciona as teclas pressionadas nas telas, na janela, para controle do jogo
         ds.setKeyListener(sm);
+
+        // StateManager.setState(StateManager.estadoInicial); // define a tela inicial
     }
 
     // Renderiza os graficos do jogo na janela
@@ -79,7 +80,8 @@ public class Game implements Runnable{
         start(); // inicia o jogo
 
         // limitador de fps
-        int fps = 60;
+        int fps = VariaveisTela.FPS;
+
         @SuppressWarnings("IntegerDivisionInFloatingPointContext")
         double tpt = 1000000000 / fps; // tiques por segundo ( a divisão de tempo de exibição por cada frame (limitado ao fds))
         double delta = 0; // variavel que contabiliza se houve o tempo necessario do tpt

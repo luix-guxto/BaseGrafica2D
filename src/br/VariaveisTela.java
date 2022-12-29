@@ -5,5 +5,5 @@ public class VariaveisTela {
     public static final int HEIGHT = 500;
     public static final String TITLE = "titulo";
     public static final String ICON_PATH = "";
-
+    public static final int FPS = 60;
 }

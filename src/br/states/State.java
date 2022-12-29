@@ -9,7 +9,7 @@ public interface State {
     void update();
 
     // renderiza a tela
-    void render(Graphics g) throws Exception;
+    void render(Graphics g);
 
     // tecla pressionada - retorno constante
     void KeyPress(int cod);

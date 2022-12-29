@@ -7,7 +7,6 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 import javax.swing.*;
 
-@SuppressWarnings("unused")
 public class Display {
     private final JFrame jframe; //Janela
     private final Canvas canvas; //Graficos
@@ -16,15 +15,15 @@ public class Display {
 
 
     //Construtor com icone
-    public Display(String titulo, int width, int heigth, String path){
+    public Display(String titulo, int width, int height, String path){
 
         // Graficos
         canvas = new Canvas();
 
         // Preferencias de layout
-        canvas.setPreferredSize(new Dimension(width, heigth));
-        canvas.setMaximumSize(new Dimension(width, heigth));
-        canvas.setMinimumSize(new Dimension(width, heigth));
+        canvas.setPreferredSize(new Dimension(width, height));
+        canvas.setMaximumSize(new Dimension(width, height));
+        canvas.setMinimumSize(new Dimension(width, height));
 
         // define o titulo
         jframe = new JFrame(titulo);
@@ -63,12 +62,6 @@ public class Display {
     // adiciona receptor de teclas a janela
     public void setKeyListener(KeyListener kl){
         jframe.addKeyListener(kl);
-    }
-
-    // fecha a janela
-    @SuppressWarnings("unused") // alerta supracido, mas metodo é usado
-    public void fechar() {
-        jframe.dispose();
     }
 
     // define visibilidade
